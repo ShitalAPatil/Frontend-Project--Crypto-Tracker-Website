@@ -1,8 +1,18 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
 .flex-info {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
+  min-height: 100vh;
 }
 
 .track-crypto-heading,

@@ -11,6 +11,7 @@ import { saveItemToWatchlist } from "../../../functions/saveItemToWatchlist";
 import StarIcon from "@mui/icons-material/Star";
 import { removeItemToWatchlist } from "../../../functions/removeItemToWatchlist";
 
+
 function Grid({ coin, delay }) {
   const watchlist = JSON.parse(localStorage.getItem("watchlist"));
   const [isCoinAdded, setIsCoinAdded] = useState(watchlist?.includes(coin.id));
@@ -84,6 +85,7 @@ function Grid({ coin, delay }) {
           Market Capital : ${coin.market_cap.toLocaleString()}
         </p>
       </motion.div>
+     
     </a>
   );
 }

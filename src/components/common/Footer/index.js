@@ -1,11 +1,23 @@
-import React from 'react'
-import './style.css'; 
+// import React from "react";
+// import "./styles.css";
 
+// function Footer() {
+//   return <div className="footer">CryptoTracker. @ 2023</div>;
+// }
+
+// export default Footer;
+
+import React from "react";
+import "./styles.css";
 
 function Footer() {
   return (
-    <div className='footer'>Footer</div>
-  )
+    <footer className="footer-container">
+      <div className="footer-content">
+        <p>Cryptocurrency Tracker © 2023</p>
+        </div>
+    </footer>
+  );
 }
 
 export default Footer;
